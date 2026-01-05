@@ -26,15 +26,17 @@ export default function App() {
         &times;
       </button>
       <div hidden={isOpen} className="steps">
-        <div className="numbers">
-          <div className={step >= 1 ? "active" : ""}>1</div>
-          <div className={step >= 2 ? "active" : ""}>2</div>
-          <div className={step >= 3 ? "active" : ""}>3</div>
-        </div>
+        <div className="content-wrapper">
+          <div className="numbers">
+            <div className={step >= 1 ? "active" : ""}>1</div>
+            <div className={step >= 2 ? "active" : ""}>2</div>
+            <div className={step >= 3 ? "active" : ""}>3</div>
+          </div>
 
-        <p className="message">
-          Step: {step} {messages[step - 1]}
-        </p>
+          <p className="message">
+            Step: {step} {messages[step - 1]}
+          </p>
+        </div>
 
         <div className="buttons">
           <button
