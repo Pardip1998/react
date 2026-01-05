@@ -19,6 +19,7 @@ body {
   padding: 25px 15px;
   margin: 70px auto 0 auto;
   max-width: 600px;
+  margin: 0 auto;
 }
 
 .numbers {
@@ -58,6 +59,7 @@ body {
   justify-content: space-between;
   max-width: 400px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .buttons button {
