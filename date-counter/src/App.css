@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.dcounter_sec {
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.dcounter_steps,
+.dcounter_count {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 190px;
+}
+
+button {
+  padding: 4px 6px;
+  font-size: 20px;
+  line-height: 40px;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dcounter_text {
+  margin-top: 10px;
+}
